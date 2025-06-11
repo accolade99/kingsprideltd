@@ -139,17 +139,19 @@ header.scrolled {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
-    z-index: 1000;
+    z-index: 998;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
     color: #2c3e50;
+    z-index: 999;
 }
 
 .logo span {
     color: #e74c3c;
+    z-index: 999;
 }
 .nav-links {
     display: flex;
@@ -194,6 +196,7 @@ header.scrolled {
     margin: 5px auto;
     background-color: #DB1F29;
     transition: all 0.3s ease;
+    z-index: 1000;
 }
 
 /* Hero Section */

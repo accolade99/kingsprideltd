@@ -712,7 +712,7 @@ footer {
 @media (max-width: 768px) {
     .navbar {
         padding: 10px 0;
-        z-index: 1000;
+        z-index: 999;
     }
 
     .nav-links {
@@ -737,6 +737,7 @@ footer {
 
     .hamburger {
         display: block;
+        z-index: 1000;
     }
 
     .hamburger.active .bar:nth-child(1) {

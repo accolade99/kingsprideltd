@@ -139,7 +139,6 @@ header.scrolled {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
-    z-index: 998;
 }
 
 .logo {
@@ -713,6 +712,7 @@ footer {
 @media (max-width: 768px) {
     .navbar {
         padding: 10px 0;
+        z-index: 1000;
     }
 
     .nav-links {
